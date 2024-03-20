@@ -13,5 +13,5 @@ spec:
     # Make a container with a name of posts
     - name: posts
       # The exact image we want to use
-      image: ms/posts:0.0.1
       imagePullPolicy: Never
+      image: ms/posts:0.0.1
